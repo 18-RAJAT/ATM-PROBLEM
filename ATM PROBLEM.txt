@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{   int x;
+    float y;
+    cin >> x;
+    cin >> y;
+    if ((y>=(x+0.50))&&(x%5 == 0)){
+        cout << y-(x+0.50) << endl;
+    }else {
+    cout << y << endl;
+    }
+    return 0;
+}
